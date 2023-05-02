@@ -39,6 +39,7 @@ function mostrarListaProductos() {
     alert(productos);
 }
 
+//SE CREA LA FUNCION QUE MOSTRARA LAS ALERTAS
 
 function mostrarAlertas() {
     alert(`¡Bienvenido a la tienda Online de Futbol Adidas!`);
@@ -77,7 +78,7 @@ function mostrarAlertas() {
 13. Botines Predator
 14. Botines Speed Portal`);
 
-        // Verificamos que el usuario haya ingresado una opción válida
+        // Se verifica si el cliente ingreso una opción válida
         if (seleccion >= 1 && seleccion <= arrayArticulos.length) {
             const productoSeleccionado = arrayArticulos[seleccion - 1];
             alert(`Ha seleccionado ${productoSeleccionado.nombre} ${productoSeleccionado.modelo} por $${productoSeleccionado.precio}`);
